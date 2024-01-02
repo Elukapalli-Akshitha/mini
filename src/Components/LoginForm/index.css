@@ -1,0 +1,115 @@
+.login-route {
+  background-color: #fafbfe;
+  display: flex;
+  width: 1440px;
+  height: 1024px;
+  padding: 278px 492px;
+  justify-content: center;
+  align-items: center;
+}
+.login-container {
+  border-radius: 8px;
+  background: var(--General-White, #fff);
+  box-shadow: 0px 4px 16px 0px rgba(123, 135, 148, 0.16);
+  width: 456px;
+  height: 468px;
+  flex-shrink: 0;
+  padding: 20px;
+}
+.login-container {
+  align-self: center;
+}
+.logo {
+  width: 77px;
+  height: 38px;
+  flex-shrink: 0;
+  fill: #263868;
+}
+.nxt {
+  color: #263868;
+  font-family: Futura Md BT;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: 0.2px;
+}
+.assess {
+  color: #263868;
+  font-family: Futura Md BT;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+.input-container {
+  width: 360px;
+  height: 64px;
+  flex-shrink: 0;
+  margin: 20px;
+}
+.label-element {
+  color: var(--Grey-100, #7e858e);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: 0.12px;
+  text-transform: uppercase;
+  margin: 10px;
+}
+.input-element {
+  width: 360px;
+  height: 40px;
+  flex-shrink: 0;
+  padding: 10px;
+  border-radius: 2px;
+  border: 1px solid var(--Light-Grey-100, #d7dfe9);
+  background: var(--General-White, #ffffff);
+  margin: 10px;
+}
+.checkbox-element {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.show-password-label {
+  color: #000;
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.show-password {
+  margin: 20px;
+}
+.login-button {
+  width: 360px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #263868;
+  color: var(--General-White, #fff);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  cursor: pointer;
+  margin-top: 20px;
+  margin: 25px;
+}
+.err-msg {
+  color: var(--Light-red-500, #ef4444);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  padding-bottom: 10px;
+}

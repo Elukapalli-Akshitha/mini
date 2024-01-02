@@ -1,0 +1,23 @@
+.question-number-button {
+  display: flex;
+  width: 32px;
+  padding: 6px 0px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid var(--Light-blue-gray-200, #e2e8f0);
+  background: #fafbfe;
+  margin: 20px;
+  cursor: pointer;
+}
+.question-number-active-button {
+  border-radius: 4px;
+  border: 1px solid var(--Light-blue-400, #60a5fa);
+  background: var(--Light-blue-50, #eff6ff);
+  display: flex;
+  width: 32px;
+  padding: 6px 0px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}

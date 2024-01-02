@@ -1,0 +1,103 @@
+.home-route {
+  background-color: #fff;
+  width: 1440px;
+  height: 1024px;
+  padding: 40px;
+}
+.assessment-start-container {
+  width: 631px;
+  height: 566px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--General-White, #fff);
+  box-shadow: 0px 4px 16px 0px rgba(123, 135, 148, 0.16);
+  padding: 20px;
+  margin-top: 50px;
+}
+.ass-start-head {
+  color: #164687;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.rules-number {
+  color: var(--Light-blue-gray-600, #475569);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.rule-name {
+  color: #496387;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.rule-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.rule-number {
+  color: var(--Light-blue-gray-600, #475569);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.rules {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.rule-name {
+  color: #496387;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.rule-p2 {
+  color: #496387;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.image-container {
+  padding: 30px;
+}
+.home-image {
+  height: 700px;
+  width: 700px;
+}
+.home-route {
+  display: flex;
+  flex-direction: row;
+}
+.start-assessment-button {
+  display: inline-flex;
+  padding: 8px 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  background: #164687;
+  color: white;
+  border-width: 0px;
+  cursor: pointer;
+  margin-top: 7px;
+}

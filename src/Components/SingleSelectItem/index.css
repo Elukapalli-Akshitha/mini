@@ -1,0 +1,8 @@
+.option-item {
+  color: var(--Basic-1000, #323f4b);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
